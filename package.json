@@ -1,0 +1,29 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web --clear",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/supabase-js": "latest",
+    "expo": "~58.0.26",
+    "expo-router": "~58.0.32",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-url-polyfill": "latest",
+    "react-native-web": "^0.21.4"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "~6.0.3"
+  }
+}
